@@ -1,0 +1,20 @@
+include $(ROOTDIR)/Makefile.options
+
+INCLUDEDIR=$(ROOTDIR)/include
+UTILITYDIR=$(ROOTDIR)/utility
+INDEXMAPSDIR=$(ROOTDIR)/indexmaps 
+VECTORSDIR=$(ROOTDIR)/vectors
+MATRICESDIR=$(ROOTDIR)/matrices
+OPERATORSDIR=$(ROOTDIR)/operators
+BLOCKEDDIR=$(ROOTDIR)/blocked
+EXPRDIR=$(ROOTDIR)/expr
+EXTRADIR=$(ROOTDIR)/extra
+
+MATRIXLIKEDIR=$(ROOTDIR)/matrixlike
+
+CFLAGS= -std=c++11
+INCLUDE= -I $(ROOTDIR)/include 
+OBJECTS=
+LIBS= -lstdc++
+MACROS=
+
